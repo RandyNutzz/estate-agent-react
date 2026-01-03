@@ -7,7 +7,7 @@ function Footer() {
       <div className="footer-container">
         {/* Site description */}
         <div className="footer-section">
-          <h3 className="footer-title">Prime Estate</h3>
+          <h3 className="footer-title">Prime Agent Estate</h3>
           <p className="footer-description">
             Your trusted partner in finding the perfect home. 
             We specialize in residential properties across London and surrounding areas.
@@ -27,10 +27,10 @@ function Footer() {
         <div className="footer-section">
           <h4 className="footer-subtitle">Contact Info</h4>
           <ul className="contact-info">
-            <li>📍 123 Estate Street, London, UK</li>
-            <li>📞 020 7946 0958</li>
-            <li>📧 info@primeestate.com</li>
-            <li>🕘 Mon-Fri: 9am-6pm</li>
+            <li> 123 Estate Street, London, UK</li>
+            <li> 0111111111111</li>
+            <li>ranida.20232841@iit.ac.lk</li>
+            <li> Mon-Fri: 9am-6pm</li>
           </ul>
         </div>
         
@@ -47,11 +47,9 @@ function Footer() {
       {/* Copyright and notes */}
       <div className="footer-bottom">
         <p className="copyright">
-          © {currentYear} Prime Estate. All rights reserved. | 
+          © {currentYear} Prime Agent Estate. All rights reserved. | 
           Coursework by Ranida Perera - UoW Student ID: w2149644
-        </p>
-        <p className="footer-note">
-          This is a client-side React application for educational purposes.
+      
         </p>
       </div>
     </footer>

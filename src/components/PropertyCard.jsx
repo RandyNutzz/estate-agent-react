@@ -34,7 +34,10 @@ function PropertyCard({ property, onFavourite }) {
       <h3 style={{ margin: "0 0 5px 0", color: "#333" }}>{property.type}</h3>
       <p className="property-price">£{property.price.toLocaleString()}</p>
       <p style={{ margin: "0 0 5px 0", color: "#555" }}>
-        🛏️ {property.bedrooms} bedroom{property.bedrooms !== 1 ? 's' : ''}
+         {property.bedrooms} bedroom{property.bedrooms !== 1 ? 's' : ''}
+         {property.bathrooms && property.bathrooms > 0 && (
+           <span>, {property.bathrooms} bathroom{property.bathrooms !== 1 ? 's' : ''}</span>
+         )}
       </p>
       
       {/* Action buttons */}
@@ -54,7 +57,7 @@ function PropertyCard({ property, onFavourite }) {
             className="add-favourite-btn"
             onClick={handleAddToFavourites}
           >
-            ⭐ Add to Favourites
+             Add to Favourites
           </button>
         )}
       </div>

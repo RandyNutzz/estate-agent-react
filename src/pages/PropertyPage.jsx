@@ -43,6 +43,7 @@ function PropertyPage() {
         <TabPanel>
           <p>{property.description}</p>
           <p>Bedrooms: {property.bedrooms}</p>
+          <p>Bathrooms: {property.bathrooms}</p>
           <p>Price: £{property.price}</p>
           <p>{property.location}</p>
 

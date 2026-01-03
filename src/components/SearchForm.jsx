@@ -185,7 +185,7 @@ function SearchForm({ onSearch }) {
           size="lg"
           className="px-5"
         >
-          🔍 Search Properties
+           Search Properties
         </Button>
         
         {/* Clear filters button */}

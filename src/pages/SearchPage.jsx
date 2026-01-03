@@ -137,11 +137,11 @@ function SearchPage() {
         }}
       >
         <div className="favourites-title">
-          <span style={{ fontSize: "24px" }}>⭐</span> 
+          <span style={{ fontSize: "24px" }}></span> 
           <h2 style={{ margin: 0 }}>
             My Favourites {isLoading ? "(Loading...)" : `(${favourites.length})`}
           </h2>
-          <span style={{ fontSize: "24px" }}>⭐</span>
+          <span style={{ fontSize: "24px" }}></span>
         </div>
 
         {/* Loading state */}
@@ -168,7 +168,7 @@ function SearchPage() {
                       alt={p.type}
                       className="property-image"
                       onError={(e) => {
-                        e.target.src = 'https://via.placeholder.com/300x200?text=Property+Image';
+                        e.target.onerror = null;
                       }}
                     />
                   )}
@@ -177,14 +177,14 @@ function SearchPage() {
                   <h3 style={{ margin: "0 0 5px 0", color: "#333" }}>{p.type}</h3>
                   <p className="property-price">£{p.price.toLocaleString()}</p>
                   <p style={{ margin: "0 0 5px 0", color: "#555" }}>
-                    🛏️ {p.bedrooms} bedroom{p.bedrooms !== 1 ? 's' : ''}
+                    {p.bedrooms} bedroom{p.bedrooms !== 1 ? 's' : ''}
                   </p>
                   <p style={{ 
                     color: "#666", 
                     fontSize: "14px",
                     margin: "0 0 10px 0"
                   }}>
-                    📍 {p.location}
+                     {p.location}
                   </p>
                   
                   {/* Action buttons */}
@@ -201,7 +201,7 @@ function SearchPage() {
                       className="remove-favourite-btn"
                       onClick={() => removeFavourite(p.id)}
                     >
-                      ❌ Remove
+                       Remove
                     </button>
                   </div>
                 </div>
@@ -215,7 +215,7 @@ function SearchPage() {
                 onClick={clearFavourites}
                 disabled={favourites.length === 0}
               >
-                🗑️ Clear All Favourites
+                 Clear All Favourites
               </button>
             </div>
           </>

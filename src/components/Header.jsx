@@ -25,14 +25,14 @@ function Header() {
     <header className="site-header">
       {/* Logo and site title */}
       <Link to="/" className="logo-link">
-        🏠 <span className="site-title">Prime Estate</span>
+         <span className="site-title">Prime Agent Estate</span>
       </Link>
       
       {/* Main navigation */}
       <nav className="main-nav">
         {/* Link to search page */}
         <Link to="/" className="nav-link">
-          🔍 Search
+           Search
         </Link>
         
         {/* Button to view favourites */}
@@ -40,7 +40,7 @@ function Header() {
           onClick={handleFavouritesClick}
           className="favourites-nav-button"
         >
-          ⭐ Favourites
+           Favourites
         </button>
       </nav>
     </header>
