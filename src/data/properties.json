@@ -8,13 +8,19 @@
 			"tenure":"Freehold",
 			"description":"Attractive three bedroom semi-detached family home situated within 0.5 miles of Petts Wood station with fast trains to London and within easy walking distance of local shops, schools, bus routes and National Trust woodland. The property comprises; two receptions, fitted 18'9 x 10'1 kitchen/breakfast room and conservatory. The property also benefits from having a utility room and cloakroom. To the first floor there are three bedrooms and a family bathroom with separate WC. Additional features include double glazing, gas central heating and a well presented interior...",
 			"location":"Petts Wood Road, Petts Wood, Orpington BR5",
-			"picture":"images/prop1pic1small.jpg",
+			"images":[
+                "/images/prop1.jpg",
+                "/images/prop1.2.jpg",
+                "/images/prop1.3.jpg",
+                "/images/prop1.4.jpg",
+                "/images/prop1.5.jpg",
+                "/images/prop1.6.jpg",
+                "/images/prop1.7.jpg"
+            
+            ],
+            "floorPlan":"/images/prop1blue.jpg",
 			"url":"properties/prop1.html",
-            "added": {
-                "month":"October",
-                "day":12,
-                "year":2022
-            }
+            "dateAdded":"2024-06-15"
         },
 		{
             "id":"prop2",
@@ -24,45 +30,66 @@
 			"tenure":"Freehold",
 			"description":"Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat. <br>The modern fitted kitchen is open plan to the living room which boasts solid wooden floors and includes integrated appliances including a dishwasher & a washing machine. This large open plan benefits from bi folding doors onto a secluded private courtyard garden. Both bedrooms are double sized, and the family bathroom boasts a matching three piece suite a shower attachment over the bath. There is also a separate wet room. There are walnut doors throughout and wiring for Sky TV/aerial points in the living room/kitchen and both bedrooms.<br>This apartment being only five years old, is still under a 10 year building guarantee...",
 			"location":"Crofton Road Orpington BR6",
-			"picture":"images/prop2pic1small.jpg",
+			"images":[
+                "/images/prop2.jpg",
+                "/images/prop2.1.jpg",
+                "/images/prop2.2.jpg",
+                "/images/prop2.3.jpg",
+                "/images/prop2.4.jpg",
+                "/images/prop2.5.jpg",
+                "/images/prop2.6.jpg",
+                "/images/prop2.7.jpg"
+            ],
+            "floorPlan":"/images/prop2blue.jpg",
 			"url":"properties/prop2.html",
-            "added": {
-                "month":"September",
-                "day":14,
-                "year":2022
-            }
-        }
+            "dateAdded":"2025-08-15"
+        },
         {
             "id":"prop3",
             "type":"Bungalow",
-            "bedrooms":2,
-            "price":525000,
+            "bedrooms":4,
+            "price":600000,
             "tenure":"Freehold",
-            "description":"A well presented two bedroom detached bungalow located in a popular residential road within easy access of Orpington mainline station and local shops. The accommodation comprises; entrance hall, lounge/dining room, fitted kitchen, two bedrooms and a bathroom. Additional features include double glazing, gas central heating and a garage. Externally there is a front garden providing off road parking and a rear garden measuring approximately 50' in length...",
-            "location":"Cleeve Park Road, Orpington BR6",
-            "picture":"images/prop3pic1small.jpg",
+            "description":"A stunning, high-quality four-bedroom detached bungalow set within a premier residential area in Worksop, offering exceptional accommodation and generous grounds of approximately one acre. Beautifully improved by the current owners, the property features spacious living areas including an extended lounge with sun room, dining room, breakfast kitchen, study, utility room, and multiple W.Cs. The main bedroom benefits from a dressing area, en suite, and garden access. Externally, the property boasts extensive parking, garages, workshops, gym, office spaces, orchard, hot tub area, and landscaped gardens, along with solar panels providing household income. Ideally located for major motorway links, rail connections to London, and nearby country parks, this is a rare opportunity to own a truly exceptional bungalow.",
+            "location":"Park Place, Worksop, S80",
+            "images":[
+                "/images/prop3.jpg",
+                "/images/prop3.1.jpg",
+                "/images/prop3.2.jpg",
+                "/images/prop3.3.jpg",
+                "/images/prop3.4.jpg",
+                "/images/prop3.5.jpg",
+                "/images/prop3.6.jpg",
+                "/images/prop3.7.jpg",
+                "/images/prop3.8.jpg",
+                "/images/prop3.9.jpg"
+            ],
+            "floorPlan":"/images/prop3blue.jpg",
             "url":"properties/prop3.html",
-            "added": {
-                "month":"November",
-                "day":5,
-                "year":2022
-            }
+            "dateAdded":"2025-11-19"
         },
         {
             "id":"prop4",
             "type":"House",
-            "bedrooms":4,
-            "price":850000,
+            "bedrooms":5,
+            "price":550000,
             "tenure":"Freehold",
-            "description":"A spacious four bedroom detached family home situated in a popular residential road within easy access of Orpington mainline station and local shops. The accommodation comprises; entrance hall, lounge, dining room, fitted kitchen/breakfast room, utility room and cloakroom. To the first floor there are four bedrooms, an en-suite shower room to the master bedroom and a family bathroom. Additional features include double glazing, gas central heating and a garage. Externally there is a front garden providing off road parking and a rear garden measuring approximately 70' in length...",
-            "location":"Maple Drive, Orpington BR6",
-            "picture":"images/prop4pic1small.jpg",
+            "description":"Beautifully presented and superbly spacious detached five bedroom property which offers over 2750 square feet of accommodation located in the sought after village of Tibberton. Tucked away in a secluded location accessed via a private drive; approached via a large driveway with parking for numerous vehicles. The ground floor accommodation begins with a generous entrance porch with sliding doors, reception hallway, a spacious 20’ lounge with fireplace and French doors through to the rear garden. A spacious dining room is accessed off of the living room and is currently utilised as a snug/reading room whilst a third reception room accessed directly off of the kitchen is used as the main dining room of the property. The breakfast kitchen enjoys a range of wooden wall and base units with worksurfaces over, steel sink and draining board. Integrated appliances include a gas hob with extractor over, double electric oven, refrigerator and dishwasher. The utility room has a range of wall and base units with stainless composite sink and draining board. There is plumbing and standing space for a washing machine and other under surface appliances, gas fired central heating boiler and a door provides access to the rear garden. The ground floor of the property enjoys three notably spacious double bedrooms with an en suite servicing the master bedroom, a family bathroom for the bedrooms two and three and a cloakroom for guests. The first floor enjoys two incredibly spacious bedrooms, perfect for elder children / teenagers with an en suite to bedroom four. There is a further bedroom/home office accessed off of the landing. Externally, the property enjoys a fantastic plot with wraparound gardens split between a formal and vegetable garden with patio, well stocked borders and pathways to the front garden and driveway....",
+            "location":"Tibberton, Newport, Shropshire, TF10",
+            "images":[
+                "/images/prop4.jpg",
+                "/images/prop4.1.jpg",
+                "/images/prop4.2.jpg",
+                "/images/prop4.3.jpg",
+                "/images/prop4.4.jpg",
+                "/images/prop4.5.jpg",
+                "/images/prop4.6.jpg",
+                "/images/prop4.7.jpg",
+                "/images/prop4.8.jpg"
+            ],
+            "floorPlan":"/images/prop4blue.jpg",
             "url":"properties/prop4.html",
-            "added": {
-                "month":"December",
-                "day":1,
-                "year":2022
-            }
+            "dateAdded":"2025-10-08"
         },
         {
             "id":"prop5",
@@ -70,15 +97,21 @@
             "bedrooms":1,
             "price":299995,
             "tenure":"Leasehold",
-            "description":"A modern one bedroom first floor flat located within easy access of Orpington mainline station and local shops. The accommodation comprises; entrance hall, lounge, fitted kitchen, bedroom and bathroom. Additional features include double glazing and gas central heating. Externally there are communal gardens and allocated parking...",
-            "location":"Station Road, Orpington BR6",
-            "picture":"images/prop5pic1small.jpg",
+            "description":"Situated within the sought-after Newbold Lawn development in the heart of Leamington Spa, this well-presented one-bedroom apartment is offered for sale with no onward chain, making it ideal for first-time buyers, investors, or downsizers. Recently refreshed throughout and move-in ready, the apartment features a bright living room with balcony views, a fitted kitchen, a spacious double bedroom, and a modern bathroom. Conveniently located close to the town centre, shops, parks, leisure facilities, and excellent transport links, the property combines a peaceful setting with easy access to local amenities.",
+            "location":"Newbold Terrace East, Leamington Spa, Warwickshire, CV32",
+            "images":[
+                "/images/prop5.jpg",
+                "/images/prop5.1.jpg",
+                "/images/prop5.2.jpg",
+                "/images/prop5.3.jpg",
+                "/images/prop5.4.jpg",
+                "/images/prop5.5.jpg",
+                "/images/prop5.6.jpg",
+                "/images/prop5.7.jpg"
+            ],
+            "floorPlan":"/images/prop5blue.jpg",
             "url":"properties/prop5.html",
-            "added": {
-                "month":"October",
-                "day":20,
-                "year":2022
-            }
+            "dateAdded":"2025-09-08"
         },
         {
             "id":"prop6",
@@ -86,30 +119,42 @@
             "bedrooms":3,
             "price":675000,
             "tenure":"Freehold",
-            "description":"A charming three bedroom terraced house located in a popular residential road within easy access of Orpington mainline station and local shops. The accommodation comprises; entrance hall, lounge, dining room, fitted kitchen and cloakroom. To the first floor there are three bedrooms and a family bathroom. Additional features include double glazing and gas central heating. Externally there is a front garden and a rear garden measuring approximately 40' in length...",
-            "location":"High Street, Orpington BR6",
-            "picture":"images/prop6pic1small.jpg",
+            "description":"Offering approximately **2,500 sq ft of living accommodation**, this stunning detached home features **four generous double bedrooms**, including **three en suites** and a stylish **four-piece family bathroom**. The spacious dual-aspect lounge with an open fire provides a warm and inviting space, while the impressive **30ft open-plan living kitchen** with island and integrated appliances forms the heart of the home. A practical utility area is neatly positioned within the double garage, which benefits from an electric up-and-over door. Outside, the established rear garden creates a peaceful retreat, ideal for outdoor entertaining. Perfectly located within walking distance of village amenities, this property offers an excellent balance of comfort, convenience, and community living.",
+            "location":"Little Barn Court, Claypole, Newark, Nottinghamshire",
+            "images":[
+                "/images/prop6.jpg",
+                "/images/prop6.1.jpg",
+                "/images/prop6.2.jpg",
+                "/images/prop6.3.jpg",
+                "/images/prop6.4.jpg",
+                "/images/prop6.5.jpg",
+                "/images/prop6.6.jpg",
+                "/images/prop6.7.jpg"
+            ],
+            "floorPlan":"/images/prop6blue.jpg",
             "url":"properties/prop6.html",
-            "added": {
-                "month":"November",
-                "day":15,
-                "year":2022
-            }
+            "dateAdded":"2025-10-28"
         },
         {
             "id":"prop7",
             "type":"Bungalow",
-            "bedrooms":2,
+            "bedrooms":3,
             "price":550000,
             "tenure":"Freehold",
-            "description":"A delightful two bedroom semi-detached bungalow located in a quiet residential road within easy access of Orpington mainline station and local shops. The accommodation comprises; entrance hall, lounge, fitted kitchen, two bedrooms and a bathroom. Additional features include double glazing and gas central heating. Externally there is a front garden providing off road parking and a rear garden measuring approximately 60' in length...",
-            "location":"Elm Road, Orpington BR6",
-            "picture":"images/prop7pic1small.jpg",
+            "description":"A delightful three bedroom semi-detached bungalow located in a quiet residential road within easy access of Orpington mainline station and local shops. The accommodation comprises; entrance hall, lounge, fitted kitchen, three bedrooms and a bathroom. Additional features include double glazing and gas central heating. Externally there is a front garden providing off road parking and a rear garden measuring approximately 60' in length...",
+            "location":"Hayfield Close, Wingerworth, Chesterfield",
+            "images":[
+                "/images/prop7.jpg",
+                "/images/prop7.1.jpg",
+                "/images/prop7.2.jpg",
+                "/images/prop7.3.jpg",
+                "/images/prop7.4.jpg",
+                "/images/prop7.5.jpg",
+                "/images/prop7.6.jpg",
+                "/images/prop7.7.jpg"
+            ],
+            "floorPlan":"/images/prop7blue.jpg",
             "url":"properties/prop7.html",
-            "added": {
-                "month":"December",
-                "day":10,
-                "year":2022
-            }
+            "dateAdded":"2025-11-13"
         }
 ]}
