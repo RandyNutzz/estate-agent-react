@@ -1,9 +1,8 @@
-import {  HashRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './components/Header';
-import Footer from './components/Footer';
-
-import SearchPage from './pages/SearchPage';
-import PropertyPage from './pages/PropertyPage';
+﻿import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import Header from './components/Header.jsx';
+import Footer from './components/Footer.jsx';
+import SearchPage from './pages/SearchPage.jsx';
+import PropertyPage from './pages/PropertyPage.jsx';
 import './App.css';
 
 function App() {
@@ -18,7 +17,6 @@ function App() {
           </Routes>
         </main>
         <Footer />
-        
       </div>
     </Router>
   );

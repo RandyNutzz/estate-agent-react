@@ -1,4 +1,4 @@
-// Footer component with site information
+﻿// Footer component with site information
 function Footer() {
   const currentYear = new Date().getFullYear();
 

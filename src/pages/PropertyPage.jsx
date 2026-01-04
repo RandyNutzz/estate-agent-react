@@ -1,7 +1,6 @@
-import { useParams } from "react-router-dom";
+﻿import { useParams } from "react-router-dom";
 import { useState } from "react";
 import data from "../data/properties.json";
-
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 
@@ -29,7 +28,7 @@ function PropertyPage() {
   };
 
   return (
-    <div style={{ padding: "20px" }}>
+    <div className="property-page-container" style={{ padding: "20px" }}>
       <h1>{property.type}</h1>
 
       <Tabs>
@@ -39,7 +38,6 @@ function PropertyPage() {
           <Tab>Map</Tab>
         </TabList>
 
-        {/* DESCRIPTION */}
         <TabPanel>
           <p>{property.description}</p>
           <p>Bedrooms: {property.bedrooms}</p>
@@ -47,7 +45,6 @@ function PropertyPage() {
           <p>Price: £{property.price}</p>
           <p>{property.location}</p>
 
-          {/* Main Image with Navigation Buttons */}
           <div style={{ position: "relative", display: "inline-block" }}>
             <img
               src={images[currentImageIndex]}
@@ -59,7 +56,6 @@ function PropertyPage() {
               }}
             />
             
-            {/* Navigation buttons  shows if multiple images */}
             {images.length > 1 && (
               <>
                 <button
@@ -102,7 +98,6 @@ function PropertyPage() {
                   ›
                 </button>
                 
-                {/* Image counter */}
                 <div style={{
                   position: "absolute",
                   bottom: "20px",
@@ -119,7 +114,6 @@ function PropertyPage() {
             )}
           </div>
 
-          {/* Thumbnails */}
           <div style={{ display: "flex", gap: "10px", flexWrap: "wrap", marginTop: "10px" }}>
             {images.map((img, index) => (
               <img
@@ -138,7 +132,6 @@ function PropertyPage() {
           </div>
         </TabPanel>
 
-        {/* FLOOR PLAN */}
         <TabPanel>
           <h3>Floor Plan</h3>
           
@@ -168,7 +161,6 @@ function PropertyPage() {
           )}
         </TabPanel>
 
-        {/* MAP */}
         <TabPanel>
           <iframe
             title="map"
