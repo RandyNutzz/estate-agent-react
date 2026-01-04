@@ -2,7 +2,7 @@
   "name": "estate-agent-react",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://randynutzz.github.io/estate-agent-react",
+  "homepage": "https://randynutzz.github.io/estate-agent-react/",
   "type": "module",
   "scripts": {
     "dev": "vite",
